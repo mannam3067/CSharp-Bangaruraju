@@ -3,9 +3,9 @@ namespace AccessModifiers
 {
     class InheritanceDemo
     {
-        public InheritanceDemo()
+        public InheritanceDemo(int i)
         {
-            Console.WriteLine("Parent class constructor");
+            Console.WriteLine("Parent class constructor"+i);
         }
         public void Test1()
         {
