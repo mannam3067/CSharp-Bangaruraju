@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AccessModifiers.InheritanceDemo1</StartupObject>
+    <StartupObject>AccessModifiers.ChildClass</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,7 @@
     <Compile Include="ClassTwo.cs" />
     <Compile Include="InheritanceDemo.cs" />
     <Compile Include="InheritanceDemo1.cs" />
+    <Compile Include="ParentClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VariablesDemo.cs" />
